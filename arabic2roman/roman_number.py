@@ -39,7 +39,7 @@ def romanNumberSmall(arabic_number, table=smallNumberTable):
 
 
 #Conversion for numbers greater than 3999
-def romanNumberBig(arabic_number, table = smallNumberTable, sep = '-'):
+def romanNumberBig(arabic_number, table=smallNumberTable, sep='-'):
     #List of the arabic equivalent of each digit in arabic_number
     roman_number = []
 
